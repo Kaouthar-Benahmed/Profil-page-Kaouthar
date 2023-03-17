@@ -1,0 +1,142 @@
+body {
+  background-color: #f9eef7;
+  color: #4D5470;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: regular;
+  text-align: center;
+}
+
+.pdf{
+  width: 130px;
+  height: 130px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  color:rgba(152, 43, 136, 0.901);
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color:  #b969a8e7;
+}
+
+
+#introduction {
+  margin-bottom: 40px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: rgb(130, 41, 109);
+  padding: 15px 20px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #c6f0f8;
+}
+
+.img-circle {
+  height: 200px;
+  border-radius: 15%;
+}
+
+.img {
+  height: 100px;
+  border-radius: 15%;
+}
+
+.card-white {
+  border-radius: 4px;
+  padding: 40px;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  margin: 10px auto;
+  width: 700px;
+  text-align: center;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+
+.buttons a {
+  margin-right: 30px;
+  width: 64px;
+  height: 64px;
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  line-height: 64px;
+  background-color: #eaeaea;
+  background-image: linear-gradient(to bottom, #f6f6f6, #eaeaea);
+  border-radius: 32px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.buttons a:active {
+  top: 1px;
+  background-image: linear-gradient(to bottom, #eaeaea, #f6f6f6);
+}
+.buttons a:active::before {
+  top: -9px;
+}
+.buttons a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  background-color: #eaeaea;
+  border-radius: 140px;
+  opacity: 0.5;
+}
+:hover .buttons a::before {
+  opacity: 1;
+}
+
+.twitter:hover::before {
+  background-color: #f4c5ee;
+}
+
+.facebook:hover::before {
+  background-color: #e5a0c4;
+}
+
+.youtube:hover::before {
+  background-color: #f0528c;
+}
+
+.twitch:hover::before {
+  background-color: #e04ec5;
+}
